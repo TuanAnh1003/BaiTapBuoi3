@@ -160,7 +160,8 @@
 .box5__content{
     margin-top: 30px;
     font-size: 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .box5__content h3{
     color: grey;
@@ -198,7 +199,7 @@
     width: 100%;
     height: 400px;
     display: flex;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .box6__block__content{
     padding: 50px;
